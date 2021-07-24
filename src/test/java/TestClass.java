@@ -14,6 +14,7 @@ public class TestClass {
         assertEquals(11,cal.add(5,6),"Add test fail" ) ;
         assertEquals(10,cal.add(5,5),"Add test fail" ) ;
         assertEquals(1,cal.add(-5,6),"Add test fail" ) ;
+
         assertEquals(9,cal.add(5,4),"Add test fail" ) ;
     }
     @Test
